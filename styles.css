@@ -131,3 +131,22 @@ footer {
 .accordion-content p {
     margin: 1rem 0;
 }
+
+.feature-images {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.feature-images img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 4px;
+}
+
+.vision-banner {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
