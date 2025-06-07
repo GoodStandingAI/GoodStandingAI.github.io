@@ -21,6 +21,14 @@ h1, h2, h3 {
     margin-top: 0;
 }
 
+h2 {
+    color: var(--navy);
+    border-bottom: 3px solid var(--teal);
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+}
+
 .container {
     width: 90%;
     max-width: 1000px;
@@ -37,6 +45,8 @@ header.hero {
 .hero-banner {
     width: 100%;
     height: auto;
+    max-height: 350px;
+    object-fit: cover;
     display: block;
 }
 
@@ -85,6 +95,12 @@ nav a {
 
 section {
     padding: 3rem 0;
+}
+
+.alt-section {
+    background: var(--neutral-300);
+    border-radius: 8px;
+    padding: 3rem;
 }
 
 .feature-list {
