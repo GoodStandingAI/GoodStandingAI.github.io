@@ -31,6 +31,13 @@ header.hero {
     background: linear-gradient(135deg, var(--navy), var(--teal));
     color: var(--neutral-100);
     padding-bottom: 3rem;
+    position: relative;
+}
+
+.hero-banner {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 nav {
@@ -91,4 +98,36 @@ footer {
     padding: 2rem 0;
     font-size: 0.9rem;
     color: var(--neutral-800);
+}
+
+.accordion {
+    border-top: 1px solid var(--neutral-300);
+}
+
+.accordion-header {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    background: var(--neutral-300);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.accordion-header.active {
+    background: var(--teal);
+    color: var(--neutral-100);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: var(--neutral-100);
+    padding: 0 1rem;
+}
+
+.accordion-content p {
+    margin: 1rem 0;
 }
