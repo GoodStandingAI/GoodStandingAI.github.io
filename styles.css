@@ -30,9 +30,10 @@ h2 {
 }
 
 .container {
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: var(--max-content-width);
     margin: 0 auto;
+    padding: 0 var(--spacing-medium);
 }
 
 header.hero {
