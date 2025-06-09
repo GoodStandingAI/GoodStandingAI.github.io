@@ -31,9 +31,9 @@ h2 {
 
 .container {
     width: 100%;
-    max-width: var(--max-content-width);
-    margin: 0 auto;
-    padding: 0 var(--spacing-medium);
+    max-width: none;
+    margin: 0;
+    padding: 0;
 }
 
 header.hero {
@@ -55,7 +55,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 nav .logo img {
@@ -100,7 +100,7 @@ section {
 
 .alt-section {
     background: var(--neutral-300);
-    border-radius: 8px;
+    border-radius: 0;
     padding: 3rem;
 }
 
