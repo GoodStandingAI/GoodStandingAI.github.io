@@ -39,7 +39,7 @@ h2 {
 header.hero {
     background: linear-gradient(135deg, var(--navy), var(--teal));
     color: var(--neutral-100);
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     position: relative;
 }
 
