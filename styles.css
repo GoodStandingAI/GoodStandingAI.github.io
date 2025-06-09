@@ -45,8 +45,7 @@ header.hero {
 
 .hero-banner {
     width: 100%;
-    height: auto;
-    max-height: 350px;
+    height: 400px;
     object-fit: cover;
     display: block;
 }
