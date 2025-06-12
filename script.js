@@ -1,15 +1,18 @@
 console.log('GoodStandingAI site loaded');
 
 // Accordion functionality for business overview
-document.querySelectorAll('.accordion-header').forEach(header => {
+const accordionItems = document.querySelectorAll('.accordion-item');
+accordionItems.forEach(item => {
+  const header = item.querySelector('.accordion-header');
+  const content = item.querySelector('.accordion-content');
   header.addEventListener('click', () => {
-    header.classList.toggle('active');
-    header.classList.toggle('bg-green-500');
-    header.classList.toggle('text-white');
-    const content = header.nextElementSibling;
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
+    const isOpen = item.classList.contains('open');
+    accordionItems.forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.accordion-content').style.maxHeight = null;
+    });
+    if (!isOpen) {
+      item.classList.add('open');
       content.style.maxHeight = content.scrollHeight + 'px';
     }
   });

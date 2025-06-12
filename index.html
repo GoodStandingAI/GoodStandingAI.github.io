@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoodStandingAI | Always in Good Standing</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .accordion-item .chevron {transition: transform 0.3s;}
+        .accordion-item.open .chevron {transform: rotate(180deg);}
+    </style>
 </head>
 <body class="font-sans text-neutral-800 bg-white">
     <nav class="bg-black text-white w-full sticky top-0 z-10">
@@ -57,49 +61,98 @@
             <div class="max-w-screen-xl mx-auto px-4">
                 <h2 class="text-3xl font-semibold mb-6">Business Overview</h2>
                 <div class="accordion border-t border-gray-300">
-                <div class="accordion-item">
-                    <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer">Elevator Pitch</button>
-                    <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
-                        <p>Fellow counselors of corporate law, the time has come to cast off the shackles of archaic record-keeping. In a bold new era, <strong>GoodStandingAI</strong> stands as the beacon of modern legal practice &ndash; a cloud-born guardian of your corporate records&hellip;</p>
+                    <div class="accordion-item">
+                        <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer flex justify-between items-center">
+                            <span>Elevator Pitch</span>
+                            <svg class="chevron h-4 w-4 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
+                            <p>Gone are the days of dusty minute books and frantic last-minute filings. GoodStandingAI delivers a modern, AI-driven platform that keeps corporate records at your fingertips and ensures your clients are always in good standing. Built by AI and tech professionals, it transforms archaic record-keeping into a secure, single source of truth. No company should ever fall out of compliance due to lost documents or missed deadlines. GoodStandingAI replaces manual processes with an intuitive system that safeguards every resolution and filing with accuracy. We provide not just software, but peace-of-mind compliance, efficient workflows, and the confidence that your firm and its clients will always remain in good standing.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer flex justify-between items-center">
+                            <span>Problem</span>
+                            <svg class="chevron h-4 w-4 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
+                            <p>Corporate law firms still rely on antiquated, fragmented methods for managing corporate records. Many use physical minute books, spreadsheets, or outdated software, often leading to lost documents and missed filings. These inefficient processes cause costly last-minute fire drills and increase the risk of non-compliance. Firms fed up with expensive, outdated providers are actively seeking a modern alternative. Manual workflows and siloed data make it hard to keep each company in good standing, threatening a firm&rsquo;s reputation and its clients&rsquo; interests.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer flex justify-between items-center">
+                            <span>Solution</span>
+                            <svg class="chevron h-4 w-4 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
+                            <p>GoodStandingAI is a cloud-based SaaS platform that automates corporate records management for law firms, providing a single, secure source of truth for all corporate records. It replaces messy binders and spreadsheets with an intuitive, AI-assisted system that centralizes entity data and streamlines key workflows &ndash; from drafting documents to tracking annual filings. The platform auto-generates resolutions and forms from templates (with integrated e-signature for instant signing) and automates compliance tasks like annual return reminders and minute book audits. Built by tech professionals leveraging AI, GoodStandingAI understands real law-firm needs and keeps records accurate and up-to-date without constant worry. The result is true peace-of-mind compliance: firms avoid human errors and missed deadlines, confident that each client&rsquo;s company remains in good standing under their care.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer flex justify-between items-center">
+                            <span>Market</span>
+                            <svg class="chevron h-4 w-4 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
+                            <p>GoodStandingAI focuses on law firms and corporate legal service providers, especially small and mid-sized firms that manage clients&rsquo; corporate entities. Unlike competitors that also target in-house legal departments, GoodStandingAI concentrates solely on law firm workflows and client service needs &ndash; a specialization that sets it apart. The initial go-to-market is to start with Canadian law firms (leveraging the founders&rsquo; Alberta expertise as a beachhead) and then expand to larger provinces like Ontario and BC, eventually reaching other countries. The addressable market includes thousands of law firms managing millions of corporate entities, many of which still rely on legacy systems or manual processes. By proving value in a familiar local market, GoodStandingAI will build momentum and credibility before scaling outward. The primary users are corporate lawyers, paralegals, and clerks, and the platform is designed and priced to fit their reality: high workloads, sensitive data, and tight budgets.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer flex justify-between items-center">
+                            <span>Product</span>
+                            <svg class="chevron h-4 w-4 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
+                            <ul class="list-disc list-inside space-y-2 py-2">
+                                <li>Centralized Records &amp; Minute Books: A unified cloud repository for all corporate records and digital minute books, providing one secure source of truth accessible from anywhere (eliminating scattered binders and outdated info).</li>
+                                <li>Automated Document Generation &amp; E-Signatures: Generate resolutions, forms, and other corporate documents from templates with a click, integrated with e-signature for immediate execution &ndash; greatly reducing drafting time and errors.</li>
+                                <li>Compliance Tracking &amp; Alerts: Built-in compliance tools (like an Annual Return Agent) track filing deadlines and send timely reminders or auto-fill forms so that no deadline is missed. A Minute Book Health Check automatically audits records and flags any gaps, ensuring nothing falls through the cracks.</li>
+                                <li>Web Filing Assistance: Browser-based tools to help law firms prepare and submit filings to provincial registries, with automated checks to ensure compliance with local requirements &ndash; eliminating manual filing hassles and reducing errors.</li>
+                                <li>Seamless Onboarding &amp; Migration: Getting started is easy. GoodStandingAI offers instant onboarding by pulling public records data, and provides tools to migrate data from legacy systems or even scan paper minute books. This makes switching from old software nearly effortless, removing a major barrier to adoption.</li>
+                                <li>Security &amp; Audit Trails: Enterprise-grade security (encryption, access controls) protects all sensitive data. Every action on the platform is logged with detailed audit trails, ensuring accountability and regulatory compliance at all times.</li>
+                                <li>Client Collaboration Portal (Coming Soon): A secure portal that lets law firms share minute book documents and status updates with clients in real time. This transparency keeps clients in the loop through a shared digital workspace, enhancing client service and trust.</li>
+                                <li>AI-Powered Assistance (Coming Soon): The platform leverages AI for smart search and assistance. All uploaded documents are indexed for natural-language queries, allowing users to quickly retrieve answers or relevant documents. The AI can also help draft documents and guide users through complex workflows, acting as a knowledgeable assistant built into the system.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer flex justify-between items-center">
+                            <span>Competitive Advantage</span>
+                            <svg class="chevron h-4 w-4 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
+                            <ul class="list-disc list-inside space-y-2 py-2">
+                                <li>Focus on Law Firms: GoodStandingAI serves law firms exclusively (not in-house corporate teams or general businesses), meaning its features are tailored to law practice workflows and client service. This clear focus helps it resonate strongly with its target users.</li>
+                                <li>&ldquo;Cheaper, Easier, Smarter&rdquo; Positioning: The platform is run as a lean operation aiming to be the most cost-effective solution on the market. Many firms are frustrated with steep price hikes from legacy vendors, so GoodStandingAI&rsquo;s fair pricing offers immediate relief. At the same time, a modern, intuitive interface and AI features make it easier to use than older, clunky systems. In short, it strives to be both more affordable and more user-friendly than incumbents.</li>
+                                <li>Easy Switching &amp; Superior Support: High switching costs often keep firms stuck with outdated software. GoodStandingAI makes onboarding new customers nearly effortless by offering free migration services and automated data import, ensuring that moving from a legacy system or paper files is as painless as possible. This drastically lowers the barrier to switching, undercutting a major moat of the incumbents. Additionally, the company emphasizes responsive customer support to assist firms throughout the transition.</li>
+                                <li>Continuous Innovation: As a cloud-native, AI-driven platform, GoodStandingAI can iterate rapidly and introduce new features that legacy products can&rsquo;t easily match. The team uses AI not as a buzzword but to solve real, everyday tasks for users. They listen to feedback and continuously improve the product to meet law firms&rsquo; evolving needs. This agility and commitment to practical innovation ensure GoodStandingAI stays ahead of slower-moving competitors.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer flex justify-between items-center">
+                            <span>Vision</span>
+                            <svg class="chevron h-4 w-4 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
+                            <p>GoodStandingAI envisions a future where every law firm, no matter its size, can deliver impeccable corporate compliance with minimal effort. Lawyers and clients will work together seamlessly on a unified digital platform, replacing the days of dusty minute books and frantic document hunts. In this future, every record is at one&rsquo;s fingertips and routine compliance tasks happen automatically in the background. The company&rsquo;s goal is to become the trusted backbone of corporate records management, starting in Canada and expanding globally. GoodStandingAI combines cutting-edge technology with reliability, security, and legal accuracy. We aim to set a new standard where compliance is streamlined and effortless, empowering law firms with efficient, intelligent, and dependable tools to keep companies confidently in good standing.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer">Problem</button>
-                    <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
-                        <p>Corporate law firms today face antiquated, fragmented methods of managing corporate records. Many still rely on physical minute books, spreadsheets, or legacy software, resulting in lost binders and missed filings&hellip;</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer">Solution</button>
-                    <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
-                        <p><strong>GoodStandingAI</strong> is a cloud-based SaaS platform that automates corporate records management for law firms, bringing order to chaos. It provides a single, secure source-of-truth for all corporate data, turning messy record-keeping into an automated, cloud-based system&hellip;</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer">Market</button>
-                    <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
-                        <p>GoodStandingAI is laser-focused on serving law firms and corporate legal service providers, especially small to mid-sized firms handling entity management for clients&hellip;</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer">Product</button>
-                    <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
-                        <p>The platform offers centralized records, automated document generation with e-signatures, compliance tracking, client collaboration, AI-powered assistance, easy onboarding, and enterprise-grade security&hellip;</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer">Competitive Advantage</button>
-                    <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
-                        <p>By focusing solely on law-firm workflows, GoodStandingAI provides a cheaper, easier, and smarter alternative to legacy systems. Painless switching and innovative features help firms stay ahead&hellip;</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header w-full text-left px-4 py-3 bg-gray-200 font-medium cursor-pointer">Vision</button>
-                    <div class="accordion-content bg-white px-4 overflow-hidden transition-all duration-300" style="max-height: 0;">
-                        <p>GoodStandingAI envisions a future where every law firm can deliver impeccable corporate compliance with minimal effort. One Client, One Team collaboration ensures no corporation falls out of good standing due to administrative oversight&hellip;</p>
-                    </div>
-                </div>
-            </div>
         </div>
         </section>
         <section id="vision" class="w-full bg-white py-12">
