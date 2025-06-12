@@ -45,4 +45,11 @@ npm run build
 npm run export
 ```
 
-The generated files will be in the `out/` directory.
+The generated files will be in the `out/` directory. Preview it locally with:
+
+```bash
+npm run preview
+```
+
+Since this repository is `GoodStandingAI.github.io`, no `basePath` is required in
+`next.config.ts`.
