@@ -1,0 +1,38 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="healthGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#17B37E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#healthGradient)" opacity="0.1"/>
+  
+  <!-- Monitor Screen -->
+  <rect x="24" y="32" width="80" height="56" rx="8" fill="url(#healthGradient)" opacity="0.2"/>
+  <rect x="28" y="36" width="72" height="48" rx="4" fill="white" stroke="url(#healthGradient)" stroke-width="2"/>
+  
+  <!-- Health Chart Line -->
+  <path d="M36 64 L44 56 L52 70 L60 50 L68 60 L76 44 L84 56 L92 48" 
+        stroke="url(#healthGradient)" 
+        stroke-width="3" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Monitor Stand -->
+  <rect x="56" y="88" width="16" height="8" fill="url(#healthGradient)"/>
+  <rect x="48" y="96" width="32" height="4" fill="url(#healthGradient)"/>
+  
+  <!-- Health Cross -->
+  <g transform="translate(96, 16)">
+    <circle cx="12" cy="12" r="16" fill="url(#healthGradient)"/>
+    <path d="M12 4 L12 20 M4 12 L20 12" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Status Indicators -->
+  <circle cx="40" cy="48" r="3" fill="#22C55E"/>
+  <circle cx="88" cy="72" r="3" fill="#EF4444"/>
+  <circle cx="72" cy="52" r="3" fill="#F59E0B"/>
+</svg>

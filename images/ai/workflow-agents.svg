@@ -1,0 +1,40 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="workflowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D2B52;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A5F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#workflowGradient)" opacity="0.1"/>
+  
+  <!-- Main Workflow Icon -->
+  <!-- Node 1 -->
+  <circle cx="36" cy="40" r="8" fill="url(#workflowGradient)"/>
+  
+  <!-- Node 2 -->
+  <circle cx="92" cy="40" r="8" fill="url(#workflowGradient)"/>
+  
+  <!-- Node 3 -->
+  <circle cx="64" cy="64" r="8" fill="url(#workflowGradient)"/>
+  
+  <!-- Node 4 -->
+  <circle cx="36" cy="88" r="8" fill="url(#workflowGradient)"/>
+  
+  <!-- Node 5 -->
+  <circle cx="92" cy="88" r="8" fill="url(#workflowGradient)"/>
+  
+  <!-- Connecting Lines -->
+  <path d="M44 40 L56 64" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M84 40 L72 64" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64 72 L36 80" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64 72 L92 80" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- AI Sparkle Effects -->
+  <g opacity="0.8">
+    <path d="M104 24 L108 32 L116 28 L108 36 L104 24" fill="#6B7280"/>
+    <path d="M20 100 L24 108 L32 104 L24 112 L20 100" fill="#6B7280"/>
+    <path d="M108 96 L110 100 L114 98 L110 102 L108 96" fill="#6B7280"/>
+  </g>
+</svg>
