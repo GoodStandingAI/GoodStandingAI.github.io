@@ -29,9 +29,4 @@
     <circle cx="16" cy="22" r="1" fill="url(#recordGradient)"/>
   </g>
   
-  <!-- AI Sparkle -->
-  <g opacity="0.8">
-    <path d="M24 84 L28 92 L36 88 L28 96 L24 84" fill="#6B7280"/>
-    <path d="M96 32 L98 36 L102 34 L98 38 L96 32" fill="#6B7280"/>
-  </g>
 </svg>

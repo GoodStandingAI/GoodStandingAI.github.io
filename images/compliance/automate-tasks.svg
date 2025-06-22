@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="24" cy="24" r="22" fill="#17B37E" opacity="0.1"/>
+  
+  <!-- Gear -->
+  <circle cx="24" cy="24" r="12" fill="none" stroke="#17B37E" stroke-width="3"/>
+  <circle cx="24" cy="24" r="5" fill="#17B37E"/>
+  
+  <!-- Gear teeth (simplified) -->
+  <rect x="22" y="9" width="4" height="6" fill="#17B37E"/>
+  <rect x="22" y="33" width="4" height="6" fill="#17B37E"/>
+  <rect x="9" y="22" width="6" height="4" fill="#17B37E"/>
+  <rect x="33" y="22" width="6" height="4" fill="#17B37E"/>
+</svg>

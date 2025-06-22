@@ -30,11 +30,4 @@
   <path d="M84 40 L72 64" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
   <path d="M64 72 L36 80" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
   <path d="M64 72 L92 80" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
-  
-  <!-- AI Sparkle Effects -->
-  <g opacity="0.8">
-    <path d="M104 24 L108 32 L116 28 L108 36 L104 24" fill="#6B7280"/>
-    <path d="M20 100 L24 108 L32 104 L24 112 L20 100" fill="#6B7280"/>
-    <path d="M108 96 L110 100 L114 98 L110 102 L108 96" fill="#6B7280"/>
-  </g>
 </svg>

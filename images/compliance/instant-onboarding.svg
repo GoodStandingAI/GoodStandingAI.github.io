@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="24" cy="24" r="22" fill="#17B37E" opacity="0.1"/>
+  
+  <!-- Upload Arrow -->
+  <path d="M24 12 L24 30" stroke="#17B37E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 18 L24 12 L30 18" stroke="#17B37E" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Base line -->
+  <line x1="15" y1="36" x2="33" y2="36" stroke="#17B37E" stroke-width="3" stroke-linecap="round"/>
+</svg>
