@@ -15,18 +15,18 @@
   <rect x="32" y="24" width="56" height="72" rx="6" fill="white" stroke="url(#recordGradient)" stroke-width="3"/>
   
   <!-- Document Lines -->
-  <line x1="44" y1="40" x2="76" y2="40" stroke="#374151" stroke-width="2"/>
-  <line x1="44" y1="50" x2="68" y2="50" stroke="#374151" stroke-width="2"/>
-  <line x1="44" y1="60" x2="72" y2="60" stroke="#374151" stroke-width="2"/>
-  <line x1="44" y1="70" x2="64" y2="70" stroke="#374151" stroke-width="2"/>
+  <line x1="44" y1="40" x2="76" y2="40" stroke="#17B37E" stroke-width="2"/>
+  <line x1="44" y1="50" x2="68" y2="50" stroke="#17B37E" stroke-width="2"/>
+  <line x1="44" y1="60" x2="72" y2="60" stroke="#17B37E" stroke-width="2"/>
+  <line x1="44" y1="70" x2="64" y2="70" stroke="#17B37E" stroke-width="2"/>
   
   <!-- Search/Question Icon -->
   <g transform="translate(65, 64)">
-    <circle cx="16" cy="16" r="12" fill="none" stroke="url(#recordGradient)" stroke-width="3"/>
-    <path d="m24 24 8 8" stroke="url(#recordGradient)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="16" cy="16" r="12" fill="none" stroke="#FF6B35" stroke-width="3"/>
+    <path d="m24 24 8 8" stroke="#FF6B35" stroke-width="3" stroke-linecap="round"/>
     <!-- Question Mark -->
-    <path d="M12 12 C12 10 14 8 16 8 C18 8 20 10 20 12 C20 14 16 15 16 18" stroke="url(#recordGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <circle cx="16" cy="22" r="1" fill="url(#recordGradient)"/>
+    <path d="M12 12 C12 10 14 8 16 8 C18 8 20 10 20 12 C20 14 16 15 16 18" stroke="#FF6B35" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="16" cy="22" r="1" fill="#FF6B35"/>
   </g>
   
 </svg>
