@@ -1,0 +1,21 @@
+<svg width="128" height="128" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monitor Screen -->
+  <rect x="4" y="6" width="24" height="16" rx="3" fill="#6366F1" opacity="0.2"/>
+  <rect x="5" y="7" width="22" height="14" rx="2" fill="white" stroke="#6366F1" stroke-width="2"/>
+  
+  <!-- Health Chart Line -->
+  <path d="M8 16 L10 13 L12 19 L14 11 L16 15 L18 9 L20 13 L22 10 L24 14" 
+        stroke="#6366F1" 
+        stroke-width="1.5" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Monitor Stand -->
+  <rect x="13" y="22" width="6" height="3" fill="#6366F1"/>
+  <rect x="10" y="25" width="12" height="2" fill="#6366F1"/>
+  
+  <!-- Redrawn Plus Sign -->
+  <rect x="25" y="3" width="3" height="10" fill="#6366F1"/>
+  <rect x="22" y="6" width="9" height="3" fill="#6366F1"/>
+</svg>

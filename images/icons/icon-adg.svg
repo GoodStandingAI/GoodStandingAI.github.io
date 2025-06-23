@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Document -->
+  <rect x="4" y="4" width="20" height="24" rx="3" stroke="#3B82F6" stroke-width="2" fill="#EFF6FF"/>
+  
+  <!-- Content lines -->
+  <line x1="8" y1="12" x2="20" y2="12" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="8" y1="16" x2="18" y2="16" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="8" y1="20" x2="20" y2="20" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Sparkle ✦ moved to the right -->
+  <g transform="translate(29, 8)">
+    <path d="M0 -4 L1 -1 L4 0 L1 1 L0 4 L-1 1 L-4 0 L-1 -1 Z" fill="#3B82F6"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cloud -->
+  <path d="M8 16 C6 16 4 18 4 20 C4 22 6 24 8 24 L24 24 C26 24 28 22 28 20 C28 18 26 16 24 16 C24 12 21 9 17 9 C13 9 10 12 10 16 L8 16 Z" 
+        stroke="#EF4444" stroke-width="1.5" fill="white"/>
+  
+  <!-- Upload arrow into cloud -->
+  <path d="M17 14 L17 21" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 17 L17 14 L20 17" stroke="#EF4444" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

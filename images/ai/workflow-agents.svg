@@ -1,33 +1,49 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="workflowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0D2B52;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1E3A5F;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#17B37E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
     </linearGradient>
+    
+    <!-- Style presets for the new design -->
+    <style>
+      .stroke { stroke:#0D2B52; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; fill:none; }
+      .robot  { fill:#F4C06D; stroke:#0D2B52; stroke-width:2; }
+    </style>
   </defs>
   
   <!-- Background Circle -->
   <circle cx="64" cy="64" r="60" fill="url(#workflowGradient)" opacity="0.1"/>
   
-  <!-- Main Workflow Icon -->
-  <!-- Node 1 -->
-  <circle cx="36" cy="40" r="8" fill="url(#workflowGradient)"/>
-  
-  <!-- Node 2 -->
-  <circle cx="92" cy="40" r="8" fill="url(#workflowGradient)"/>
-  
-  <!-- Node 3 -->
-  <circle cx="64" cy="64" r="8" fill="url(#workflowGradient)"/>
-  
-  <!-- Node 4 -->
-  <circle cx="36" cy="88" r="8" fill="url(#workflowGradient)"/>
-  
-  <!-- Node 5 -->
-  <circle cx="92" cy="88" r="8" fill="url(#workflowGradient)"/>
-  
-  <!-- Connecting Lines -->
-  <path d="M44 40 L56 64" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M84 40 L72 64" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M64 72 L36 80" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M64 72 L92 80" stroke="url(#workflowGradient)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Center and scale the workflow design to fit 128x128 -->
+  <g transform="translate(4, 14) scale(1.0)">
+    <!-- ====== WORKFLOW BOXES ====== -->
+    <rect x="10"  y="60" width="20" height="20" rx="3" class="stroke"/>
+    <rect x="50"  y="60" width="20" height="20" rx="3" class="stroke"/>
+    <rect x="90"  y="60" width="20" height="20" rx="3" class="stroke"/>
+
+    <!-- Compliance green dots in first and second boxes -->
+    <circle cx="20" cy="70" r="3" fill="#17B37E"/>
+    <circle cx="60" cy="70" r="3" fill="#17B37E"/>
+
+    <!-- Arrows between boxes -->
+    <!-- arrow 1 -->
+    <line x1="30" y1="70" x2="50" y2="70" class="stroke"/>
+    <path d="M50 70 L45 66 L45 74 Z" fill="#0D2B52"/>
+    <!-- arrow 2 -->
+    <line x1="70" y1="70" x2="90" y2="70" class="stroke"/>
+    <path d="M90 70 L85 66 L85 74 Z" fill="#0D2B52"/>
+
+    <!-- ====== ROBOT HEAD (AI AGENT) ====== -->
+    <g transform="translate(45,15)">
+      <!-- antenna -->
+      <line   x1="25" y1="0"  x2="25" y2="5"  class="robot"/>
+      <circle cx="25" cy="8"  r="3" class="robot"/>
+      <!-- head -->
+      <rect   x="10" y="8" width="30" height="20" rx="3" class="robot"/>
+      <!-- eyes -->
+      <circle cx="18" cy="18" r="2.5" class="stroke" fill="#0D2B52"/>
+      <circle cx="32" cy="18" r="2.5" class="stroke" fill="#0D2B52"/>
+    </g>
+  </g>
 </svg>
