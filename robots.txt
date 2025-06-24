@@ -1,0 +1,24 @@
+User-Agent: *
+Allow: /
+Disallow: /staging/
+Disallow: /test/
+Disallow: /dev/
+Disallow: /_next/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: ChatGPT-User
+Disallow: /
+
+User-Agent: CCBot
+Disallow: /
+
+User-Agent: anthropic-ai
+Disallow: /
+
+Host: https://goodstandingai.com
+Sitemap: https://goodstandingai.com/sitemap.xml

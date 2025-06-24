@@ -1,0 +1,6 @@
+Contact: mailto:security@goodstandingai.com
+Expires: 2025-12-31T23:59:59.000Z
+Encryption: https://goodstandingai.com/pgp-key.txt
+Acknowledgments: https://goodstandingai.com/security/acknowledgments
+Policy: https://goodstandingai.com/security/policy
+Hiring: https://goodstandingai.com/careers/security
