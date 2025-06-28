@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient definition for colorful sparkle -->
+  <defs>
+    <linearGradient id="sparkleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Colorful Sparkle ✦ -->
+  <text x="64" y="96" font-family="Poppins, system-ui, sans-serif" font-size="128" text-anchor="middle" fill="url(#sparkleGradient)">✦</text>
+</svg>
