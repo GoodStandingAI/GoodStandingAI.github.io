@@ -3,7 +3,6 @@ Allow: /
 Disallow: /staging/
 Disallow: /test/
 Disallow: /dev/
-Disallow: /_next/
 Disallow: /api/
 Disallow: /admin/
 Disallow: /private/
