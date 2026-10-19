@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="title"><title id="title">Health Monitor — live oversight of corporate records</title>
+<rect x="8" y="8" width="112" height="112" rx="28" fill="#EFF5F6"/>
+<g stroke="#0D2B52" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<rect x="25" y="31" width="78" height="54" rx="8" fill="white"/>
+<path d="M25 45h78M54 85v12m20-12v12M44 98h40"/>
+<path d="M51 57h13M51 69h24"/>
+</g>
+<circle cx="36" cy="38" r="1.5" fill="#0D2B52"/>
+<circle cx="43" cy="38" r="1.5" fill="#0D2B52" opacity=".35"/>
+<circle cx="39" cy="57" r="3" fill="#17B37E"/>
+<circle cx="39" cy="69" r="3" fill="#17B37E"/>
+<circle cx="88" cy="65" r="8" fill="#E5F5ED" stroke="#17B37E" stroke-width="2.5"/>
+<path d="m84.5 65 2.5 2.5 4.5-5" stroke="#17B37E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

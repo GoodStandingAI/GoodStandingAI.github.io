@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="title"><title id="title">Ask Your Record — ask a question and receive a grounded answer</title>
+<rect x="8" y="8" width="112" height="112" rx="28" fill="#EFF5F6"/>
+<path d="M49 53h46a9 9 0 0 1 9 9v24a9 9 0 0 1-9 9h-4v9L79 95H49a9 9 0 0 1-9-9V62a9 9 0 0 1 9-9Z" fill="white" stroke="#17B37E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33 27h44a9 9 0 0 1 9 9v26a9 9 0 0 1-9 9H51L36 83V71h-3a9 9 0 0 1-9-9V36a9 9 0 0 1 9-9Z" fill="white" stroke="#0D2B52" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49 42a7 7 0 0 1 14 0c0 5-7 5-7 10" stroke="#0D2B52" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="56" cy="59" r="1.75" fill="#0D2B52"/>
+<path d="M66 81h25m-16 7h16" stroke="#17B37E" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
